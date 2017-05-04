@@ -1,0 +1,30 @@
+{
+  "name": "erdiagram-plugin",
+  "version": "1.0.0",
+  "description": "A tool for creating ER database diagrams.",
+  "main": "interpreter.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2graphic/erdiagram-plugin.git"
+  },
+  "keywords": [
+    "ER",
+    "diagram",
+    "database",
+    "sinap"
+  ],
+  "author": "Dyllon Gagnier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2graphic/erdiagram-plugin/issues"
+  },
+  "homepage": "https://github.com/2graphic/erdiagram-plugin#readme",
+  "sinap": {
+    "kind": ["Diagrams", "ER-database"],
+    "plugin-file": "interpreter.ts",
+    "loader": "typescript"
+  }
+}
